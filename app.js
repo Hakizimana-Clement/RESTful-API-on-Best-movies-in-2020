@@ -13,7 +13,7 @@ const url =
   process.env.DATABASE_USERNAME +
   ":" +
   process.env.DATABASE_PASSWORD +
-  "@cluster0.fzfjyqq.mongodb.net/bestMoviesIn2022?authSource=admin";
+  "@cluster0.fzfjyqq.mongodb.net/bestMoviesIn2022DB?authSource=admin";
 
 mongoose
   .connect(url)
